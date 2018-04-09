@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener {
             $region = new region($data,$this);
         }
     } 
-    public function onCommand(CommandSender $p,Command $cmd,$label,array $args) {
+    public function onCommand(CommandSender $p, Command $cmd,string $label,array $args): bool {
         if(!($p instanceof Player)) {
             $p->sendMessage(Color::RED . "Command must be used in-game.");
             return true;
