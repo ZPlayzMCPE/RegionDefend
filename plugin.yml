@@ -5,9 +5,9 @@ api: [3.0.0-ALPHA11]
 load: POSTWORLD
 author: Georggi
 commands:
-    region:
+    vmreg:
         description: "Allows you to manage regions."
-        usage: "/region <pos1/pos2/claim/list/flag/delete/addmember/addowner/removeowner/removemember>"
+        usage: "/vmreg <pos1/pos2/claim/list/flag/delete/addmember/addowner/removeowner/removemember>"
         permission: regiondefend.command.region
 permissions:
     regiondefend:
